@@ -17,14 +17,14 @@ module HammerCLIForemanBootdisk
       if options[HammerCLI.option_accessor_name('sudo')]
         temp_file = Tempfile.new('bootdisk')
         begin
-          File.write(temp_file, record)
+          File.open(temp_file, 'w') { |f| f.write(record) }
           system('sudo', 'dd', "if=#{temp_file.path}", "of=#{file}", 'bs=1024')
         ensure
           temp_file.close
           temp_file.unlink
         end
       else
-        File.write(file, record)
+        File.open(file, 'w') { |f| f.write(record) }
       end
       print_message (success_message % file) if success_message
     end
