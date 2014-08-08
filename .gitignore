@@ -1,0 +1,19 @@
+# Ruby
+Gemfile.lock
+Gemfile.local
+pkg
+*.gem
+
+# Tests
+test/reports
+coverage
+
+# rvm/rbenv
+.ruby-gemset
+.ruby-version
+
+# Editors
+tags
+
+# Disks
+*.iso
