@@ -1,4 +1,3 @@
-require 'pry'
 require 'hammer_cli_foreman'
 
 module HammerCLIForemanBootdisk
