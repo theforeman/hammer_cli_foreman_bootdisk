@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = Dir['README*']
   s.require_paths = ["lib"]
 
-  s.add_dependency 'hammer_cli_foreman', '>= 0.1.1'
+  s.add_dependency 'hammer_cli_foreman', '>= 0.1.2'
 
 end
