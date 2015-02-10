@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
   s.summary       = %q{Foreman boot disk commands for Hammer}
   s.description   = %q{Foreman boot disk commands for Hammer CLI}
 
-  s.files            = Dir['{lib,locale}/**/*', 'README*']
-  s.extra_rdoc_files = Dir['README*']
+  s.files            = Dir['{lib,locale}/**/*', 'LICENSE', 'README*']
+  s.extra_rdoc_files = Dir['LICENSE', 'README*']
   s.require_paths = ["lib"]
 
   s.add_dependency 'hammer_cli_foreman', '>= 0.1.2'
