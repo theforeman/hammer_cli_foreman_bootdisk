@@ -7,6 +7,7 @@ module HammerCLIForemanBootdisk
 
   begin
     require 'hammer_cli_foreman_bootdisk/commands'
+    require 'hammer_cli_foreman_bootdisk/version'
 
     HammerCLI::MainCommand.lazy_subcommand('bootdisk', _("Download boot disks"),
       'HammerCLIForemanBootdisk::Bootdisk', 'hammer_cli_foreman_bootdisk/bootdisk'
