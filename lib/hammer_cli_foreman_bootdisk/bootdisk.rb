@@ -22,6 +22,17 @@ module HammerCLIForemanBootdisk
       build_options
     end
 
+    class SubnetCommand < HammerCLIForemanBootdisk::DownloadCommand
+      resource :subnet_disks
+      action :subnet
+
+      command_name    'subnet'
+      success_message _('Successfully downloaded subnet disk image to %s')
+      failure_message _('Failed to download subnet disk image')
+
+      build_options
+    end
+
     autoload_subcommands
   end
 end

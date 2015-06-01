@@ -21,6 +21,10 @@ Or to download a per-host disk, run:
 
     hammer bootdisk host --host client.example.com
 
+Or to download a subnet disk, run:
+
+    hammer bootdisk subnet --subnet mysubnet
+
 Files will be downloaded into the current directory unless `--file` is used to set the
 destination:
 
