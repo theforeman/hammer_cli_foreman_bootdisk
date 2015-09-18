@@ -1,47 +1,55 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer-cli-foreman package.
-#
-# Translators:
-# Dominic Cleal <dcleal@redhat.com>, 2014
+# eukim <eukim@redhat.com>, 2015. #zanata
 msgid ""
 msgstr ""
-"Project-Id-Version: Foreman\n"
+"Project-Id-Version: hammer_cli_foreman_bootdisk 0.1.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2015-09-16 12:51+0000\n"
-"Last-Translator: Lukáš Zapletal\n"
-"Language-Team: Korean (http://www.transifex.com/foreman/foreman/language/ko/)\n"
+"POT-Creation-Date: 2014-08-08 14:31+0100\n"
+"PO-Revision-Date: 2015-03-13 02:28+0000\n"
+"Last-Translator: eukim <eukim@redhat.com>\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Zanata 3.6.0\n"
 
-msgid "Download boot disks"
-msgstr ""
-
-msgid "Successfully downloaded generic disk image to %s"
-msgstr ""
-
-msgid "Failed to download generic disk image"
-msgstr ""
-
-msgid "Successfully downloaded host disk image to %s"
-msgstr ""
-
-msgid "Failed to download host disk image"
-msgstr ""
-
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:6
 msgid "File or device to write image to"
-msgstr ""
+msgstr "이미지를 작성할 파일 또는 장치 "
 
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:7
 msgid "Force writing to existing destination (device etc.)"
-msgstr ""
+msgstr "기존 대상 파일 (장치 등)에 쓰기를 강제 "
 
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:8
 msgid "Use sudo to write to device"
-msgstr ""
+msgstr "장치에 쓰기를 실행하기 위해 sudo 사용"
 
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:14
 msgid ""
-"Destination %s already exists and isn't a regular file, use '--force' if you a"
-"re sure you wish to write to it"
+"Destination %s already exists and isn't a regular file, use '--force' if you "
+"are sure you wish to write to it"
 msgstr ""
+"대상 파일 %s 이 이미 존재하며 이는 일반 파일이 아닙니다. 파일에 쓰기를 실행하"
+"고자 할 경우 '--force'를 사용합니다 "
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:9
+msgid "Successfully downloaded generic disk image to %s"
+msgstr "일반 디스크 이미지가 %s에 성공적으로 다운로드되었습니다 "
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:10
+msgid "Failed to download generic disk image"
+msgstr "일반 디스크 이미지 다운로드에 실패했습니다 "
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:19
+msgid "Successfully downloaded host disk image to %s"
+msgstr "호스트 디스크 이미지가 %s에 성공적으로 다운로드되었습니다 "
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:20
+msgid "Failed to download host disk image"
+msgstr "호스트 디스크 이미지 다운로드에 실패했습니다 "
+
+#: lib/hammer_cli_foreman_bootdisk.rb:12
+msgid "Download boot disks"
+msgstr "부팅 디스크 다운로드 "
