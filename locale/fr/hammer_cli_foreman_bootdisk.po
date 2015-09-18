@@ -10,40 +10,53 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Foreman\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-08 14:31+0100\n"
 "PO-Revision-Date: 2015-03-21 13:20+0000\n"
 "Last-Translator: Claer <transiblu@claer.hammock.fr>\n"
-"Language-Team: French (http://www.transifex.com/foreman/foreman/language/fr/)\n"
+"Language-Team: French (http://www.transifex.com/foreman/foreman/language/"
+"fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-msgid "Download boot disks"
-msgstr ""
-
-msgid "Successfully downloaded generic disk image to %s"
-msgstr ""
-
-msgid "Failed to download generic disk image"
-msgstr ""
-
-msgid "Successfully downloaded host disk image to %s"
-msgstr ""
-
-msgid "Failed to download host disk image"
-msgstr ""
-
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:6
 msgid "File or device to write image to"
-msgstr ""
+msgstr "Fichier ou périphérique sur lequel écrire une image"
 
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:7
 msgid "Force writing to existing destination (device etc.)"
-msgstr ""
+msgstr "Écriture forcée sur destination existantes (périphériques, etc)"
 
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:8
 msgid "Use sudo to write to device"
-msgstr ""
+msgstr "Utilisez sudo pour écrire un périphérique"
 
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:14
 msgid ""
-"Destination %s already exists and isn't a regular file, use '--force' if you a"
-"re sure you wish to write to it"
+"Destination %s already exists and isn't a regular file, use '--force' if you "
+"are sure you wish to write to it"
 msgstr ""
+"La destination %s existe déjà et n'est pas un fichier standard. Utilisez '--"
+"force' si vous êtes sûr de vouloir écrire dessus."
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:9
+msgid "Successfully downloaded generic disk image to %s"
+msgstr "Image de disque générique téléchargée vers %s"
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:10
+msgid "Failed to download generic disk image"
+msgstr "Échec du téléchargement de l'image de disque générique"
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:19
+msgid "Successfully downloaded host disk image to %s"
+msgstr "Image de disque de l'hôte téléchargée vers %s"
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:20
+msgid "Failed to download host disk image"
+msgstr "Échec du téléchargement de l'image de disque de l'hôte"
+
+#: lib/hammer_cli_foreman_bootdisk.rb:12
+msgid "Download boot disks"
+msgstr "Téléchargez les disques de démarrage"

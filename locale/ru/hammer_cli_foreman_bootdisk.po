@@ -8,43 +8,53 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Foreman\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-08 14:31+0100\n"
 "PO-Revision-Date: 2015-09-16 12:51+0000\n"
 "Last-Translator: Vladimir Pavlov <v.pavlov@i-teco.ru>\n"
-"Language-Team: Russian (http://www.transifex.com/foreman/foreman/language/ru/)"
-"\n"
+"Language-Team: Russian (http://www.transifex.com/foreman/foreman/language/"
+"ru/)\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=1"
-"1 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
 
-msgid "Download boot disks"
-msgstr ""
-
-msgid "Successfully downloaded generic disk image to %s"
-msgstr ""
-
-msgid "Failed to download generic disk image"
-msgstr ""
-
-msgid "Successfully downloaded host disk image to %s"
-msgstr ""
-
-msgid "Failed to download host disk image"
-msgstr ""
-
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:6
 msgid "File or device to write image to"
-msgstr ""
+msgstr "Файл или устройство для записи образа"
 
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:7
 msgid "Force writing to existing destination (device etc.)"
-msgstr ""
+msgstr "Принудительно перезаписать"
 
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:8
 msgid "Use sudo to write to device"
-msgstr ""
+msgstr "Запись устройства в режиме sudo"
 
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:14
 msgid ""
-"Destination %s already exists and isn't a regular file, use '--force' if you a"
-"re sure you wish to write to it"
-msgstr ""
+"Destination %s already exists and isn't a regular file, use '--force' if you "
+"are sure you wish to write to it"
+msgstr "%s уже существует. Чтобы перезаписать, добавьте «--force»"
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:9
+msgid "Successfully downloaded generic disk image to %s"
+msgstr "Стандартный образ загружен в %s"
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:10
+msgid "Failed to download generic disk image"
+msgstr "Не удалось загрузить стандартный образ"
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:19
+msgid "Successfully downloaded host disk image to %s"
+msgstr "Образ узла загружен в %s"
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:20
+msgid "Failed to download host disk image"
+msgstr "Не удалось загрузить образ узла"
+
+#: lib/hammer_cli_foreman_bootdisk.rb:12
+msgid "Download boot disks"
+msgstr "Загрузить диски"

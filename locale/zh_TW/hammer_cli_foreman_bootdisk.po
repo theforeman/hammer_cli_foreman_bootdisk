@@ -7,41 +7,53 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Foreman\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-08 14:31+0100\n"
 "PO-Revision-Date: 2015-09-16 12:51+0000\n"
 "Last-Translator: Lukáš Zapletal\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/foreman/foreman/lang"
-"uage/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/foreman/foreman/"
+"language/zh_TW/)\n"
+"Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Download boot disks"
-msgstr ""
-
-msgid "Successfully downloaded generic disk image to %s"
-msgstr ""
-
-msgid "Failed to download generic disk image"
-msgstr ""
-
-msgid "Successfully downloaded host disk image to %s"
-msgstr ""
-
-msgid "Failed to download host disk image"
-msgstr ""
-
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:6
 msgid "File or device to write image to"
-msgstr ""
+msgstr "用來寫入映像檔的檔案或裝置"
 
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:7
 msgid "Force writing to existing destination (device etc.)"
-msgstr ""
+msgstr "強制寫入既有的目的地（裝置等等）"
 
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:8
 msgid "Use sudo to write to device"
-msgstr ""
+msgstr "使用 sudo 來寫入裝置"
 
+#: lib/hammer_cli_foreman_bootdisk/commands.rb:14
 msgid ""
-"Destination %s already exists and isn't a regular file, use '--force' if you a"
-"re sure you wish to write to it"
+"Destination %s already exists and isn't a regular file, use '--force' if you "
+"are sure you wish to write to it"
 msgstr ""
+"目的地 %s 早已存在，並且不是個正規檔案，若您確定您要寫入它的話，請使用 '--"
+"force'。"
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:9
+msgid "Successfully downloaded generic disk image to %s"
+msgstr "已成功下載泛型磁碟映像檔至 %s"
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:10
+msgid "Failed to download generic disk image"
+msgstr "下載泛型磁碟映像檔失敗"
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:19
+msgid "Successfully downloaded host disk image to %s"
+msgstr "已成功下載主機磁碟映像檔至 %s"
+
+#: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:20
+msgid "Failed to download host disk image"
+msgstr "下載主機磁碟映像檔失敗"
+
+#: lib/hammer_cli_foreman_bootdisk.rb:12
+msgid "Download boot disks"
+msgstr "下載開機磁碟"
