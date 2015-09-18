@@ -1,20 +1,23 @@
-# Hammer CLI Foreman Bootdisk
-# Copyright (C) 2014
-# This file is distributed under the same license as the hammer_cli_foreman_bootdisk package.
-# Dominic Cleal <dcleal@redhat.com>, 2014
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer-cli-foreman package.
 #
+# Translators:
+# Claer <transiblu@claer.hammock.fr>, 2014
+# Dominic Cleal <dcleal@redhat.com>, 2014
+# Pierre-Emmanuel Dutang <dutangp@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_bootdisk 0.1.0\n"
+"Project-Id-Version: Foreman\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2014-08-08 14:24+0100\n"
-"Last-Translator: Foreman Team <foreman-dev@googlegroups.com>\n"
-"Language-Team: Foreman Team <foreman-dev@googlegroups.com>\n"
-"Language: \n"
+"PO-Revision-Date: 2015-03-21 13:20+0000\n"
+"Last-Translator: Claer <transiblu@claer.hammock.fr>\n"
+"Language-Team: French (http://www.transifex.com/foreman/foreman/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid "Download boot disks"
 msgstr ""
