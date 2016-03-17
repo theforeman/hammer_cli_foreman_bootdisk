@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[foreman.hammer-cli-foreman]
+[foreman.hammer_cli_foreman_bootdisk]
 file_filter = locale/<lang>/hammer_cli_foreman_bootdisk.po
 source_file = locale/hammer_cli_foreman_bootdisk.pot
 source_lang = en
