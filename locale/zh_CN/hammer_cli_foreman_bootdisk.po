@@ -1,65 +1,64 @@
 # Hammer CLI Foreman Bootdisk
 # Copyright (C) 2014
 # This file is distributed under the same license as the hammer_cli_foreman_bootdisk package.
-# Dominic Cleal <dcleal@redhat.com>, 2014
-#
-#, fuzzy
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_bootdisk 0.1.3\n"
+"Project-Id-Version: Foreman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-10 12:48+0000\n"
-"PO-Revision-Date: 2014-08-08 14:24+0100\n"
-"Last-Translator: Foreman Team <foreman-dev@googlegroups.com>\n"
-"Language-Team: Foreman Team <foreman-dev@googlegroups.com>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-07-29 12:43+0000\n"
+"Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/foreman/foreman/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: lib/hammer_cli_foreman_bootdisk/commands.rb:6
 msgid "File or device to write image to"
-msgstr ""
+msgstr "要写入映像的文件或设备"
 
 #: lib/hammer_cli_foreman_bootdisk/commands.rb:7
 msgid "Force writing to existing destination (device etc.)"
-msgstr ""
+msgstr "强制写入现有目标（设备等）。"
 
 #: lib/hammer_cli_foreman_bootdisk/commands.rb:8
 msgid "Use sudo to write to device"
-msgstr ""
+msgstr "输入 sudo 写入设备"
 
 #: lib/hammer_cli_foreman_bootdisk/commands.rb:14
 msgid ""
-"Destination %s already exists and isn't a regular file, use '--force' if you "
-"are sure you wish to write to it"
-msgstr ""
+"Destination %s already exists and isn't a regular file, use '--force' if you"
+" are sure you wish to write to it"
+msgstr "目标 %s 已存在，且不是常规文件，如果确定要写入，请使用 '--force' 选项。"
 
 #: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:9
 msgid "Successfully downloaded generic disk image to %s"
-msgstr ""
+msgstr "成功将原始磁盘映像下载到 %s"
 
 #: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:10
 msgid "Failed to download generic disk image"
-msgstr ""
+msgstr "下载原始磁盘映像失败"
 
 #: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:19
 msgid "Successfully downloaded host disk image to %s"
-msgstr ""
+msgstr "成功将主机磁盘映像下载到 %s"
 
 #: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:20
 msgid "Failed to download host disk image"
-msgstr ""
+msgstr "下载主机磁盘映像失败"
 
 #: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:30
 msgid "Successfully downloaded subnet disk image to %s"
-msgstr ""
+msgstr "成功将子网磁盘映像下载到 %s"
 
 #: lib/hammer_cli_foreman_bootdisk/bootdisk.rb:31
 msgid "Failed to download subnet disk image"
-msgstr ""
+msgstr "下载子网磁盘映像失败"
 
 #: lib/hammer_cli_foreman_bootdisk.rb:12
 msgid "Download boot disks"
-msgstr ""
+msgstr "下载引导磁盘"
