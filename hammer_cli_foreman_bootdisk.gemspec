@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.platform      = Gem::Platform::RUBY
   s.authors       = ["Dominic Cleal"]
   s.email         = "dcleal@redhat.com"
-  s.homepage      = "http://github.com/theforeman/hammer_cli_foreman_bootdisk"
-  s.license       = "GPL v3+"
+  s.homepage      = "https://github.com/theforeman/hammer_cli_foreman_bootdisk"
+  s.license       = "GPL-3.0-or-later"
 
   s.summary       = %q{Foreman boot disk commands for Hammer}
   s.description   = %q{Foreman boot disk commands for Hammer CLI}
