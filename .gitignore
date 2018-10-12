@@ -17,3 +17,7 @@ tags
 
 # Disks
 *.iso
+
+# Locale files
+locale/*/*.edit.po
+locale/*/*.po.time_stamp
