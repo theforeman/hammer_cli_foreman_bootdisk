@@ -1,16 +1,10 @@
+require 'rake/testtask'
 require 'bundler/gem_tasks'
+require 'hammer_cli/i18n/find_task'
+require_relative "./lib/hammer_cli_foreman_bootdisk/version"
+require_relative "./lib/hammer_cli_foreman_bootdisk/i18n"
 
-namespace :gettext do
-  desc "Update pot file"
-  task :find do
-    require "hammer_cli_foreman_bootdisk/version"
-    require "hammer_cli_foreman_bootdisk/i18n"
-    require 'gettext/tools'
-
-    domain = HammerCLIForemanBootdisk::I18n::LocaleDomain.new
-    GetText.update_pofiles(domain.domain_name, domain.translated_files, "#{domain.domain_name} #{HammerCLIForemanBootdisk.version.to_s}", :po_root => domain.locale_dir)
-  end
-end
+HammerCLI::I18n::FindTask.define(HammerCLIForemanBootdisk::I18n::LocaleDomain.new, HammerCLIForemanBootdisk.version)
 
 namespace :pkg do
   desc 'Generate package source gem'
