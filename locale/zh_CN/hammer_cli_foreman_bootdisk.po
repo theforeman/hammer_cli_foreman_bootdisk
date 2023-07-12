@@ -1,17 +1,18 @@
-# Hammer CLI Foreman Bootdisk
-# Copyright (C) 2014
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the hammer_cli_foreman_bootdisk package.
 #
 # Translators:
 # Dominic Cleal <dcleal@redhat.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_bootdisk 0.1.3\n"
+"Project-Id-Version: hammer_cli_foreman_bootdisk 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2017-09-20 09:35+0000\n"
-"Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/foreman/foreman/langu"
-"age/zh_CN/)\n"
+"POT-Creation-Date: 2019-06-20 10:23+0200\n"
+"PO-Revision-Date: 2014-08-08 16:21+0000\n"
+"Last-Translator: Dominic Cleal <dcleal@redhat.com>, 2014\n"
+"Language-Team: Chinese (China) (http://app.transifex.com/foreman/foreman/"
+"language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,36 +20,36 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Download boot disks"
-msgstr "下载引导磁盘"
+msgstr "下載開機磁碟"
 
 msgid "Successfully downloaded generic disk image to %s"
-msgstr "成功将原始磁盘映像下载到 %s"
+msgstr "成功地将通用磁盘镜像下载到 %s"
 
 msgid "Failed to download generic disk image"
-msgstr "下载原始磁盘映像失败"
+msgstr "下载通用磁盘镜像失败"
 
 msgid "Successfully downloaded host disk image to %s"
-msgstr "成功将主机磁盘映像下载到 %s"
+msgstr "成功地将主机磁盘镜像下载到 %s"
 
 msgid "Failed to download host disk image"
-msgstr "下载主机磁盘映像失败"
+msgstr "下载主机磁盘镜像失败"
 
 msgid "Successfully downloaded subnet disk image to %s"
-msgstr "成功将子网磁盘映像下载到 %s"
+msgstr "成功地将子网磁盘镜像下载到 %s"
 
 msgid "Failed to download subnet disk image"
-msgstr "下载子网磁盘映像失败"
+msgstr "下载子网磁盘镜像失败"
 
 msgid "File or device to write image to"
-msgstr "要写入映像的文件或设备"
+msgstr "用來寫入映像檔的檔案或裝置"
 
 msgid "Force writing to existing destination (device etc.)"
-msgstr "强制写入现有目标（设备等）。"
+msgstr "強制寫入既有的目的地（裝置等等）"
 
 msgid "Use sudo to write to device"
-msgstr "输入 sudo 写入设备"
+msgstr "使用 sudo 來寫入裝置"
 
 msgid ""
-"Destination %s already exists and isn't a regular file, use '--force' if you a"
-"re sure you wish to write to it"
-msgstr "目标 %s 已存在，且不是常规文件，如果确定要写入，请使用 '--force' 选项。"
+"Destination %s already exists and isn't a regular file, use '--force' if you "
+"are sure you wish to write to it"
+msgstr "目标 %s 已存在且不是一个常规文件，如果您确定要写入它，则使用 '-force'"

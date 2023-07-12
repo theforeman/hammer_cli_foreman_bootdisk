@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_bootdisk package.
+#
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_bootdisk 0.3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-20 10:23+0200\n"
+"PO-Revision-Date: 2014-08-08 16:21+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Georgian (http://app.transifex.com/foreman/foreman/language/"
+"ka/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Download boot disks"
+msgstr "ჩატვირთვადი დისკების გადმოწერა"
+
+msgid "Successfully downloaded generic disk image to %s"
+msgstr "დისკის ზოგადი ასლი წარმატებით გადმოიწერა %s-ზე"
+
+msgid "Failed to download generic disk image"
+msgstr "დისკის ზოგადი ასლის გადმოწერის შეცდომა"
+
+msgid "Successfully downloaded host disk image to %s"
+msgstr "ჰოსტის დისკის ასლი წარმატებით გადმოიწერა %s-ზე"
+
+msgid "Failed to download host disk image"
+msgstr "ჰოსტის დისკის ასლის გადმოწერის შეცდომა"
+
+msgid "Successfully downloaded subnet disk image to %s"
+msgstr "ქვექსელის დისკის ასლი წარმატებით გადმოიწერა %s-ზე"
+
+msgid "Failed to download subnet disk image"
+msgstr "ქვექსელის დისკის ასლის გადმოწერის შეცდომა"
+
+msgid "File or device to write image to"
+msgstr "ფაილი ან მოწყობილობა ასლის ჩასაწერად"
+
+msgid "Force writing to existing destination (device etc.)"
+msgstr "არსებულ ადგილას ძალით ჩაწერა (მოწყობილობა, ა.შ.)"
+
+msgid "Use sudo to write to device"
+msgstr "მოწყობილობაზე ჩასაწერად sudo-ის გამოყენება"
+
+msgid ""
+"Destination %s already exists and isn't a regular file, use '--force' if you "
+"are sure you wish to write to it"
+msgstr ""
+"სამიზნე %s უკვე არსებობს და არ წარმოდგენს ჩვეულებრივ ფაილს. თუ მაინც გნებავთ "
+"მასში ჩაწერა, გამოიყენეთ --force"
