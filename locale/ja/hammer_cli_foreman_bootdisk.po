@@ -1,18 +1,19 @@
-# Hammer CLI Foreman Bootdisk
-# Copyright (C) 2014
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the hammer_cli_foreman_bootdisk package.
 #
 # Translators:
 # Dominic Cleal <dcleal@redhat.com>, 2014
-# Shuji Yamada <uzy.exe@gmail.com>, 2015
+# 山田 修司 🍣 Shuji Yamada <uzy.exe@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_bootdisk 0.1.3\n"
+"Project-Id-Version: hammer_cli_foreman_bootdisk 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2017-09-20 09:35+0000\n"
-"Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/foreman/foreman/language/ja/"
-")\n"
+"POT-Creation-Date: 2019-06-20 10:23+0200\n"
+"PO-Revision-Date: 2014-08-08 16:21+0000\n"
+"Last-Translator: 山田 修司 🍣 Shuji Yamada <uzy.exe@gmail.com>, 2015\n"
+"Language-Team: Japanese (http://app.transifex.com/foreman/foreman/language/"
+"ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,13 +30,13 @@ msgid "Failed to download generic disk image"
 msgstr "汎用ディスクイメージのダウンロードに失敗しました"
 
 msgid "Successfully downloaded host disk image to %s"
-msgstr "ホストディスクイメージが正常に %s にダウンロードされました　"
+msgstr "ホストディスクイメージが正常に %s にダウンロードされました"
 
 msgid "Failed to download host disk image"
 msgstr "ホストディスクイメージのダウンロードに失敗しました"
 
 msgid "Successfully downloaded subnet disk image to %s"
-msgstr "サブネットディスクイメージが正常に %s にダウンロードされました　"
+msgstr "サブネットディスクイメージが正常に %s にダウンロードされました"
 
 msgid "Failed to download subnet disk image"
 msgstr "サブネットディスクイメージのダウンロードに失敗しました"
@@ -50,6 +51,8 @@ msgid "Use sudo to write to device"
 msgstr "デバイスへの書き込みに sudo を使用"
 
 msgid ""
-"Destination %s already exists and isn't a regular file, use '--force' if you a"
-"re sure you wish to write to it"
-msgstr "書き込み先 %s がすでに存在します。これは通常ファイルではありません。本当にこれに書き込む場合は '--force' を使用します"
+"Destination %s already exists and isn't a regular file, use '--force' if you "
+"are sure you wish to write to it"
+msgstr ""
+"書き込み先 %s がすでに存在します。これは通常ファイルではありません。本当にこ"
+"れに書き込む場合は '--force' を使用します"

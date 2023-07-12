@@ -1,17 +1,18 @@
-# Hammer CLI Foreman Bootdisk
-# Copyright (C) 2014
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the hammer_cli_foreman_bootdisk package.
 #
 # Translators:
 # Dominic Cleal <dcleal@redhat.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_bootdisk 0.1.3\n"
+"Project-Id-Version: hammer_cli_foreman_bootdisk 0.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2017-09-20 09:35+0000\n"
-"Last-Translator: Bryan Kearney <bryan.kearney@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/foreman/foreman/lang"
-"uage/zh_TW/)\n"
+"POT-Creation-Date: 2019-06-20 10:23+0200\n"
+"PO-Revision-Date: 2014-08-08 16:21+0000\n"
+"Last-Translator: Dominic Cleal <dcleal@redhat.com>, 2014\n"
+"Language-Team: Chinese (Taiwan) (http://app.transifex.com/foreman/foreman/"
+"language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -49,6 +50,8 @@ msgid "Use sudo to write to device"
 msgstr "使用 sudo 來寫入裝置"
 
 msgid ""
-"Destination %s already exists and isn't a regular file, use '--force' if you a"
-"re sure you wish to write to it"
-msgstr "目的地 %s 早已存在，並且不是個正規檔案，若您確定您要寫入它的話，請使用 '--force'。"
+"Destination %s already exists and isn't a regular file, use '--force' if you "
+"are sure you wish to write to it"
+msgstr ""
+"目的地 %s 早已存在，並且不是個正規檔案，若您確定您要寫入它的話，請使用 '--"
+"force'。"
