@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gemspec
 
 gem 'gettext', '>= 3.1.3', '< 4.0.0'
-gem 'rake', '~> 10.1.0'
+gem 'rake', '~> 13.1.0'
 
 # load local gemfile
 ['Gemfile.local.rb', 'Gemfile.local'].map do |file_name|
