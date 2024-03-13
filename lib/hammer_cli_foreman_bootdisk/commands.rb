@@ -8,29 +8,27 @@ module HammerCLIForemanBootdisk
     option "--sudo", :flag, _("Use sudo to write to device")
 
     def print_data(record)
-      server_filename = $1 if record.headers[:content_disposition] =~ /filename=["']?([^\s,;"']+)/
+      server_filename = ::Regexp.last_match(1) if record.headers[:content_disposition].match?(/filename=["']?([^\s,;"']+)/)
       file = options[HammerCLI.option_accessor_name('file')] || server_filename || 'bootdisk.iso'
-      if !options[HammerCLI.option_accessor_name('force')] && File.exist?(file) && !File.file?(file)
-        raise(HammerCLIForeman::OperationNotSupportedError, _("Destination %s already exists and isn't a regular file, use '--force' if you are sure you wish to write to it") % file)
-      end
+      raise(HammerCLIForeman::OperationNotSupportedError, _("Destination %s already exists and isn't a regular file, use '--force' if you are sure you wish to write to it") % file) if !options[HammerCLI.option_accessor_name('force')] && File.exist?(file) && !File.file?(file)
 
       if options[HammerCLI.option_accessor_name('sudo')]
         temp_file = Tempfile.new('bootdisk')
         begin
-          File.open(temp_file, 'w') { |f| f.write(record) }
+          File.write(temp_file, record)
           system('sudo', 'dd', "if=#{temp_file.path}", "of=#{file}", 'bs=1024')
         ensure
           temp_file.close
           temp_file.unlink
         end
       else
-        File.open(file, 'w') { |f| f.write(record) }
+        File.write(file, record)
       end
-      print_message (success_message % file) if success_message
+      print_message(success_message % file) if success_message
     end
 
     def request_options
-      {:response => :raw}
+      { response: :raw }
     end
   end
 end

@@ -10,11 +10,10 @@ module HammerCLIForemanBootdisk
     require 'hammer_cli_foreman_bootdisk/version'
 
     HammerCLI::MainCommand.lazy_subcommand('bootdisk', _("Download boot disks"),
-      'HammerCLIForemanBootdisk::Bootdisk', 'hammer_cli_foreman_bootdisk/bootdisk'
-    )
-  rescue => e
-    handler = HammerCLIForeman::ExceptionHandler.new(:context => {}, :adapter => :base)
+                                           'HammerCLIForemanBootdisk::Bootdisk', 'hammer_cli_foreman_bootdisk/bootdisk')
+  rescue StandardError => e
+    handler = HammerCLIForeman::ExceptionHandler.new(context: {}, adapter: :base)
     handler.handle_exception(e)
-    raise HammerCLI::ModuleLoadingError.new(e)
+    raise HammerCLI::ModuleLoadingError, e
   end
 end
