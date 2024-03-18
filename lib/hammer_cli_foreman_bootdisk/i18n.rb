@@ -2,9 +2,7 @@ require 'hammer_cli/i18n'
 
 module HammerCLIForemanBootdisk
   module I18n
-
     class LocaleDomain < HammerCLI::I18n::LocaleDomain
-
       def translated_files
         Dir.glob(File.join(File.dirname(__FILE__), '../**/*.rb'))
       end
@@ -17,7 +15,6 @@ module HammerCLIForemanBootdisk
         'hammer_cli_foreman_bootdisk'
       end
     end
-
   end
 end
 
