@@ -1,8 +1,9 @@
-require:
-  - rubocop-performance
+inherit_gem:
+  theforeman-rubocop:
+    - strictest.yml
 
 AllCops:
-  NewCops: enable
+  TargetRubyVersion: 2.7
 
 Layout/LineLength:
   Enabled: false
@@ -10,17 +11,8 @@ Layout/LineLength:
 Metrics:
   Enabled: false
 
-Style/Documentation:
-  Enabled: false
-
 Style/StringLiterals:
   Enabled: false
 
 Style/FrozenStringLiteralComment:
-  Enabled: false
-
-Gemspec/RequireMFA:
-  Enabled: false
-
-Style/SymbolProc:
   Enabled: false
