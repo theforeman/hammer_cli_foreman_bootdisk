@@ -5,9 +5,9 @@ require 'hammer_cli_foreman/commands'
 
 module HammerCLIForemanBootdisk
   class DownloadCommand < HammerCLIForeman::Command
-    option "--file", "PATH", _("File or device to write image to")
-    option "--force", :flag, _("Force writing to existing destination (device etc.)")
-    option "--sudo", :flag, _("Use sudo to write to device")
+    option '--file', 'PATH', _('File or device to write image to')
+    option '--force', :flag, _('Force writing to existing destination (device etc.)')
+    option '--sudo', :flag, _('Use sudo to write to device')
 
     def print_data(record)
       server_filename = ::Regexp.last_match(1) if record.headers[:content_disposition].match?(/filename=["']?([^\s,;"']+)/)
