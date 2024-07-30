@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module HammerCLIForemanBootdisk
   class Bootdisk < HammerCLIForeman::Command
     resource :disks

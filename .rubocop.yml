@@ -13,6 +13,3 @@ Metrics:
 
 Style/StringLiterals:
   Enabled: false
-
-Style/FrozenStringLiteralComment:
-  Enabled: false
