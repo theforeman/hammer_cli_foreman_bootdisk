@@ -9,6 +9,7 @@ module HammerCLIForemanBootdisk
     option '--force', :flag, _('Force writing to existing destination (device etc.)')
     option '--sudo', :flag, _('Use sudo to write to device')
 
+    # rubocop:disable Layout/LineLength
     def print_data(record)
       server_filename = ::Regexp.last_match(1) if record.headers[:content_disposition].match?(/filename=["']?([^\s,;"']+)/)
       file = options[HammerCLI.option_accessor_name('file')] || server_filename || 'bootdisk.iso'
@@ -28,6 +29,7 @@ module HammerCLIForemanBootdisk
       end
       print_message(success_message % file) if success_message
     end
+    # rubocop:enable Layout/LineLength
 
     def request_options
       { response: :raw }
