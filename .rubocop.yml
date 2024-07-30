@@ -10,6 +10,3 @@ Layout/LineLength:
 
 Metrics:
   Enabled: false
-
-Style/StringLiterals:
-  Enabled: false
