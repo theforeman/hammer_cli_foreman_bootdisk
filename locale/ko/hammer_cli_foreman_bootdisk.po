@@ -6,7 +6,7 @@
 # Dominic Cleal <dcleal@redhat.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_bootdisk 0.3.0\n"
+"Project-Id-Version: hammer_cli_foreman_bootdisk 0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-20 10:23+0200\n"
 "PO-Revision-Date: 2014-08-08 16:21+0000\n"
@@ -35,10 +35,10 @@ msgid "Failed to download host disk image"
 msgstr "호스트 디스크 이미지 다운로드에 실패했습니다 "
 
 msgid "Successfully downloaded subnet disk image to %s"
-msgstr ""
+msgstr "서브넷 디스크 이미지를 %s로 성공적으로 다운로드했습니다."
 
 msgid "Failed to download subnet disk image"
-msgstr ""
+msgstr "서브넷 디스크 이미지 다운로드에 실패했습니다."
 
 msgid "File or device to write image to"
 msgstr "이미지를 작성할 파일 또는 장치 "

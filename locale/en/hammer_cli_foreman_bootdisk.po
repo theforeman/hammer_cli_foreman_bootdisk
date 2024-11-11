@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_bootdisk 0.3.0\n"
+"Project-Id-Version: hammer_cli_foreman_bootdisk 0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-20 10:23+0200\n"
 "PO-Revision-Date: 2019-06-20 10:23+0200\n"
