@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = Dir['LICENSE', 'README*']
   s.require_paths = ['lib']
 
-  s.add_dependency 'hammer_cli_foreman', '~> 3.10'
+  s.add_dependency 'hammer_cli_foreman', '~> 5.0'
   s.required_ruby_version = '>= 2.7', '< 4'
 
   s.add_development_dependency 'theforeman-rubocop', '~> 0.1.0'
